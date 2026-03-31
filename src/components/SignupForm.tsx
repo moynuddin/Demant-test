@@ -36,14 +36,14 @@ export default function SignupForm({ onClose }: SignupFormProps) {
     setClinicLines((prev) => prev.filter((_, i) => i !== index));
   };
 
-  const handleLineChange = (index: number, value: string) => {
-    console.log(value);
-    setClinicLines((prev) => {
-      const updated = [...prev];
-      updated[index] = value;
-      return updated;
-    });
-  };
+  // const handleLineChange = (index: number, value: string) => {
+  //   console.log(value);
+  //   setClinicLines((prev) => {
+  //     const updated = [...prev];
+  //     updated[index] = value;
+  //     return updated;
+  //   });
+  // };
 
   const handleSubmit = async () => {
     setHasSubmitted(true);
