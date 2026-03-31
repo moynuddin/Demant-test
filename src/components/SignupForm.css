@@ -24,7 +24,7 @@
 
 /* ── Input ─────────────────────────────────────────────────── */
 .form__input {
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
   border-radius: 6px;
   padding: 9px 12px;
   font-size: 14px;
@@ -40,7 +40,7 @@
 }
 
 .form__input::placeholder {
-  color: #bbb;
+  color: #6b6867;
 }
 
 .form__input:focus {
